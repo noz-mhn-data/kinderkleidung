@@ -48,31 +48,58 @@ Die Erhebung der Daten genügt nicht wissenschaftlichen Standards. Dass jeweils 
 
 Bedeutung der Spalten:
 id = Von uns vergebene ID des Oberteils; mehrere Zeilen mit derselben ID bedeuten, dass dem Oberteil mehr als eine Farbe zugeordnet wurden (maximal vier)
+
 deeplink = Link zum Artikel im Online-Shop (zum Zeitpunkt der Erhebung im August 2018)
+
 thumbnail_img_src = Link zu Bild des Artikels (zum Zeitpunkt der Erhebung im August 2018)
+
 title = Titel des Artikels laut Website 
+
 has_motiv = 1 wenn Motiv vorhanden, sonst 0
+
 has_glitzer = 1 wenn Oberteil Glitzer enthält, sonst 0
+
 geschlecht = "f" wenn Artikel in Mädchenabteilung des Online-Shops, "m" wenn Artikel in Jungenabteilung des Online-Shops
+
 shop = Welcher der drei untersuchten Anbieter (Otto, H&M, C&A) bietet dieses Produkt an
+
 colors_palette_id = Alle ermittelten Farben wurden einer Farbe aus einer Referenztabelle zugeordnet (https://wiki.selfhtml.org/wiki/Grafik/Farbpaletten#Farbnamen). Jede der Farben aus der Referenzpalette hat von uns eine ID bekommen.
+
 is_primary = 1 wenn Hintergrundfarbe, 0 wenn Motivfarbe
+
 R = R-Komponente des RGB-Werts der ursprünglich ermittelten Farbe
+
 G = G-Komponente des RGB-Werts der ursprünglich ermittelten Farbe
+
 B = B-Komponente des RGB-Werts der ursprünglich ermittelten Farbe
+
 H = H-Komponente der ursprünglich ermittelten Farbe im HSV-Farbraum
+
 S = S-Komponente der ursprünglich ermittelten Farbe im HSV-Farbraum
+
 V = V-Komponente der ursprünglich ermittelten Farbe im HSV-Farbraum
+
 HEX = HEX-Code der ursprünglich ermittelten Farbe
-name_de = Deutscher Name der Farbe aus der Referenztabelle (https://wiki.selfhtml.org/wiki/Grafik/Farbpaletten#Farbnamen) zugeordneten Farbe
+
+name_de = Deutscher Name der Farbe aus der Referenztabelle (https://wiki.selfhtml.org/wiki/Grafik/Farbpaletten#Farbnamen) zugeordneten 
+Farbe
+
 name_en  = Englischer Name der Farbe aus der Referenztabelle (https://wiki.selfhtml.org/wiki/Grafik/Farbpaletten#Farbnamen) zugeordneten Farbe
+
 parent_name_de_2 = Deutscher Name der übergeordneten Farbe. Die Farben der Referenztabelle wurden von uns zu 14 übergeordneten Farbklassen zusammengefasst (Beige, Braun, Schwarz, Weiß, Grau, Rosa, Pink, Grün, Orange, Rot, Blau, Gelb, Lila, Türkis)
+
 R_palette = R-Komponente des RGB-Werts der aus der Referenztabelle ermittelten Farbe
+
 G_palette = G-Komponente des RGB-Werts der aus der Referenztabelle ermittelten Farbe
+
 B_palette = B-Komponente des RGB-Werts der aus der Referenztabelle ermittelten Farbe
+
 H_palette = H-Komponente der aus der Referenztabelle ermittelten Farbe im HSV-Farbraum
+
 S_palette = S-Komponente der aus der Referenztabelle ermittelten Farbe im HSV-Farbraum
+
 V_palette = V-Komponente der aus der Referenztabelle ermittelten Farbe im HSV-Farbraum
+
 weight_parent_color = Gewichtungsfaktor 0.25, 0.5 oder 1, s. auch Erläuterung
 
 Erläuterung zum Gewichtungsfaktor: Der Gewichtungsfaktor gewichtet eine Farbe stärker, wenn das Oberteil wenige Farben hat (er ist 1, wenn das Shirt nur eine Farbe hat) und schwächer, wenn es mehrere Farben hat (Faktor 0.25 für jede Farbe wenn die maximale Anzahl von 4 Farben für ein Shirt gefunden wurde). Für jedes Oberteil wurden maximal vier dominante Farben ermittelt, zwei für den Hintergrund und zwei für das Motiv. Da die Gewichtung keinen maßgeblichen Einfluss auf die zentralen Ergebnisse der Datenauswertung hatte, wurde sie im Artikel letztlich nicht berücksichtigt, bzw. jede Farbe wurde mit dem Faktor 1 gewichtet.
@@ -87,10 +114,15 @@ Erläuterung zum Gewichtungsfaktor: Der Gewichtungsfaktor gewichtet eine Farbe s
 
 Bedeutung der Spalten:
 id = Von uns vergebene ID des Oberteils
+
 deeplink = Link zum Artikel im Online-Shop (zum Zeitpunkt der Erhebung im August 2018)
+
 thumbnail_img_src = Link zu Bild des Artikels (zum Zeitpunkt der Erhebung im August 2018)
+
 has_motiv = 1 wenn Motiv vorhanden, sonst 0 (in diesem Datensatz immer 1)
+
 motiv = Ermitteltes Motiv
+
 motivkategorie = Dem ermittelten Motiv zugeordnete Motivkategorie
 
 Anmerkungen: 
