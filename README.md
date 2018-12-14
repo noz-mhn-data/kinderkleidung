@@ -145,12 +145,12 @@ Skript, das aus gewichtung_14122018.csv die zur jeweiligen Farbkategorie gehöre
 
 ## RosaPinkAnteil.R
 
-Skript, das berechnet, in wie vielen der Shirts für Jungen bzw. Mädchen mindestens ein Farbton der Klasse Rosa oder Pink vorkommt.
+Skript, das aus gewichtung_14122018.csv berechnet, in wie vielen der Shirts für Jungen bzw. Mädchen mindestens ein Farbton der Klasse Rosa oder Pink vorkommt.
 
 ## Anteile_Glitzer.R
 
-Skript, das berechnet, wie viele Oberteile für Jungen bzw. Mädchen glitzernde Elemente haben.
+Skript, das aus gewichtung_14122018.csv berechnet, wie viele Oberteile für Jungen bzw. Mädchen glitzernde Elemente haben.
 
 ## Anteil_Motive.R
 
-Skript, das berechnet, wie viele Oberteile Motive zeigen.
+Skript, das aus gewichtung_14122018.csv berechnet, wie viele Oberteile Motive zeigen.
