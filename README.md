@@ -130,6 +130,11 @@ Anmerkungen:
 * Die Motive "Teddybär" und "Bärchen" wurden bei der Auswertung für den Artikel zu "Bär" zusammengefasst. In diesen Rohdaten tauchen noch beide Kategorien auf.
 * Da die Motive nur durch eine Person kodiert wurden, ist dieser Datensatz zwangsläufig fehlerbehaftet. Stichproben lassen jedoch darauf schließen, dass uneindeutige Zuordnungen vor allem bei nicht scharf abgrenzbaren Motiven wie "Kritzelei" eine Rolle spielen, weniger bei meist klar erkennbaren Motiven wie bestimmten Tieren.
 
+## Anmerkung zu den R-Skripten
+
+* Der Pfad zu den Daten muss jeweils noch richtig gesetzt werden
+* Das Skript Auswertung_gewichtung_Farben nutzt das Paket ggplot2: https://ggplot2.tidyverse.org/
+
 ## Auswertung_ohne_Gewichtung_Farben.R 
 
 Skript, das aus gewichtung_14122018.csv die zur jeweiligen Farbkategorie gehörenden Farbtöne aufsummiert, plottet und als CSV-Datei ausgibt. Diese Auswertung ist Basis der Treemaps im Artikel.
