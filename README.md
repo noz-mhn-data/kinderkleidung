@@ -18,7 +18,8 @@ Feedback erwünscht an a.behrend (ÄT) noz.de
 * Beschreibung des R-Skripts Auswertung_Gewichtung_Farben.R
 * Beschreibung des R-Skripts RosaPinkAnteil.R
 * Beschreibung des R-Skripts Anteile_Glitzer.R
-* Beschreibung des R-Skripts Anteil_Motive.R 
+* Beschreibung des R-Skripts Anteil_Motive.R
+* Beschreibung des R-Skripts Scatterplot.R
 
 ## Allgemeine Hinweise zu Datenerhebung und -analyse
 
@@ -133,7 +134,7 @@ Anmerkungen:
 ## Anmerkung zu den R-Skripten
 
 * Der Pfad zu den Daten muss jeweils noch richtig gesetzt werden
-* Das Skript Auswertung_gewichtung_Farben nutzt das Paket ggplot2: https://ggplot2.tidyverse.org/
+* Die Skripte Auswertung_gewichtung_Farben.R und Scatterplot.R nutzen das Paket ggplot2: https://ggplot2.tidyverse.org/
 
 ## Auswertung_ohne_Gewichtung_Farben.R 
 
@@ -154,3 +155,7 @@ Skript, das aus gewichtung_14122018.csv berechnet, wie viele Oberteile für Jung
 ## Anteil_Motive.R
 
 Skript, das aus gewichtung_14122018.csv berechnet, wie viele Oberteile Motive zeigen.
+
+## Scatterplot.R
+
+Skript, das aus gewichtung_14122018.csv einen Scatterplot der Farben im HSV-Farbraum für Jungen bzw. für Mädchen erstellt. Die Beschriftung sowie die Auswahl des Geschlechts müssen händisch im Skript angepasst werden.
