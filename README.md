@@ -6,7 +6,7 @@ https://www.noz.de/deutschland-welt/familie/artikel/1580749/in-der-rosa-falle-wi
 https://www.shz.de/tipps-trends/familie-und-kind/In-der-Rosa-Falle-Wie-stereotype-Kleidung-Kinder-praegt-id21601687.html
 https://www.svz.de/ratgeber/familie/In-der-Rosa-Falle-Wie-stereotype-Kleidung-Kinder-praegt-id21601707.html
 
-Feedback erwünscht an a.behrend@noz.de
+Feedback erwünscht an a.behrend (ÄT) noz.de
 
 ##########################################################
 
